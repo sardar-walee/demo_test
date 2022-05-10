@@ -1,0 +1,10 @@
+git status   "fa3si gorankariakan dakat"
+
+git add *    "updaiti failakant dakat lo git hub !agar ishi nakrd awa bnusa git add "nawi failaka""
+
+git commit -m "message"    "au kodat pewist dabi pesh awai updaiti github bkai"
+
+git push origin main   "datwani awa bakar beni lo updait krdni failli github"
+
+git pull origin main  "datwani awa bakar beni lo updait krdni failakant"
+
