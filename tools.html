@@ -1,0 +1,28 @@
+<html>
+<head>
+	<style>
+		#goback{
+			position:fixed;
+			bottom:0;
+			left:0;
+			margin-bottom:1em;
+			margin-left:1em;
+			padding:1em;
+			cursor:pointer;
+			color:red;
+			border-radius:25px;
+		}
+	</style>
+	</head>
+<body>
+	<h1>Welcome To Tools</h1>
+	<a href="index.html">Go To Home</a>
+	
+	<button onclick="goingback()" id="goback">Go Back</button>
+	<script>
+	const goingback = ()=>{
+		window.history.go(-1);
+	}
+	</script>
+	</body>
+</html>
