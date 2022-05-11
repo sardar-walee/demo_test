@@ -1,3 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
 
+#bv{
+	width:100%;
+	height:30vh;
+	position: relative;
+}
+#background-video{
+	position:absolute;
+	width:100%!important;
+	height:30vh;
+	top:0;
+	left:0;
+	z-index:-1;
+	opacity:0.9;
+	
+}
