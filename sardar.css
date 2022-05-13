@@ -7,17 +7,20 @@
 	font-family: 'poppins', -sens-serif;
 	
 }
+body{
+	background-color:orange;
+}
 .showcase {
 	position: absolute;
 	right: 0;
 	width: 100%;
 	min-height: 100vh;
-	padding: 100pc;
+	/*padding: 100pc;*/
 	display: flex;
 	justify-content:  space-between;
-	align-items: up right;
-	background: black#111;
-	color:white#fff;
+	/*align-items: up right;*/
+	background: black;
+	color:white;
 	z-index: -2;
 }
 .showcase header{
@@ -59,7 +62,7 @@
 	background-position: center;
 	
 }
-.showcase video {
+ video {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -67,6 +70,7 @@
 	height: 100%;
 	object-fit: cover;
 	opacity: 0.8;
+	 z-index:1;
 
 }
 .overlay{
